@@ -1,0 +1,85 @@
+/*공통*/
+* {padding:0; margin:0}
+ul {list-style: none;}
+.row {width: 1195px;  margin:0 auto}
+a:hover {cursor: pointer;}
+a, a:link, a:visited, a:hover, a:active{text-decoration:none; color:inherit; outline: none;}
+
+/*초기화*/
+.clearfix {display: block; content: ''; clear: both;}
+
+/*헤더*/
+
+
+/*헤더 '상'*/
+.header-top {height: 39px;background-color: #000;}
+.h-t-n  {width: 80px;float:right}
+.h-t-n li {width: 50%; float: left;}
+.search,.login {padding-top: 8px;}
+
+
+/*헤더 '하'*/
+.header-bottom {height: 75px; background-color: #fff;}
+.nav  {width: 700px;float: left;padding-top: 30px; font-weight: bold; text-align: right;}
+.nav li {float:left;width: 20%;}
+.logo {float:left;padding-top:20px ;width: 220px;}
+.button {width: 119px;height: 45px; float:left; margin-left: 130px; background-color: #e60012; border: 0;margin-top: 20px;color: #fff;}
+.button:hover {font-weight: bold; background-color: #111;}
+/*/////헤더 끝*/
+
+
+/*메인*/
+#main {background-image: url(../images/main.png);height: 585px; 
+    background-repeat: no-repeat;background-position: center center; background-size: cover; position: relative}
+.main_text {color:#fff}
+.main_text h1 {font-size: 40px;padding-top: 124px;}
+.main_text p {padding-top: 55px; }
+.next-btn {position: absolute; width: 78px;height: 78px; background-color: #e60012; 
+    border-radius: 50px; text-align: center; line-height: 78px; top:90%; left:50%}
+.next-btn img {vertical-align: middle;}
+
+
+/*컨텐츠 1*/
+#content1 {background-color: #fff; height: 425px;}
+.iconbox {float:left; width: 25%; text-align: center; margin-top: 90px; height: 250px; border-right: 2px solid #909090; box-sizing: border-box;}
+.iconbox h3 {padding-top: 40px;font-size: 20px;}
+.iconbox p {color:#4b4b4b; font-size: 13px; padding-top: 20px;}
+
+
+/*컨텐츠 2*/
+#content2 {background-image: url(../images/greybox.png); height: 772px;
+     background-repeat: no-repeat; background-size: cover;} 
+.c2title {font-size: 35px; text-align: center;padding-top: 160px; padding-bottom: 50px;}
+#content2 h3{color:#1c1c1c}
+#content2 p {color:#4b4b4b}
+/*화이트박스 1*/
+.whitebox {background-image: url(../images/whitebox.png);width: 591px;height: 400px; float:left; padding-right: 8px;
+background-repeat: no-repeat;}
+.whitebox h3 {font-size: 30px; font-weight: normal;padding-left: 69px ;padding-top: 64px;}
+.whitebox p {font-size: 13px; padding-left: 69px;padding-top: 40px;}
+/*컬러박스*/
+.colorbox {float:left}
+.greenbox {background-image: url(../images/greenbox.png);width: 296px;height: 194px; margin-bottom: 8px;}
+.greenbox h4 {font-size: 16px; padding-top: 40px;padding-left: 24px; }
+.greenbox p {font-size: 13px; padding-left: 24px;}
+.yellowbox h4 {font-size: 16px; padding-top: 40px;padding-left: 24px;  }
+.yellowbox p {font-size: 13px; padding-left: 24px}
+.yellowbox {background-image: url(../images/yellowbox.png);width: 296px;height: 194px;}
+.next2 {padding-left: 24px;padding-top: 17px;}
+/*화이트박스2*/
+.whitebox2 {float:left;width: 290px;height: 398px; background-color: #fff; border-radius: 10px;}
+.whitebox2 h3 {font-size: 22px;padding-left: 28px; padding-top: 41px;}
+.whitebox2 p {font-size: 15px; padding-left: 28px;padding-top: 32px;}
+.line {margin:0 auto; margin-top: 30px}
+
+
+/*푸터*/
+
+/*푸터상*/
+.footer-t {background-color:#3b3939 ; height: 53px; color:#fff; font-size: 12px;}
+.footer-t ul li {float:left; width:11%;padding-right: 10px; line-height: 53px; }
+
+/*푸터하*/
+.footer-b {height: 132px;background-color: #000; color:#fff}
+.footer-b h4 {font-size: 12px;padding-top: 20px;}
+.footer-b p {font-size: 11px; padding-top: 10px;}
