@@ -58,7 +58,7 @@ background-repeat: no-repeat;}
 .whitebox h3 {font-size: 30px; font-weight: normal;padding-left: 69px ;padding-top: 64px;}
 .whitebox p {font-size: 13px; padding-left: 69px;padding-top: 40px;}
 /*컬러박스*/
-.colorbox {float:left}
+.colorbox {float:left; padding-right: 8px;}
 .greenbox {background-image: url(../images/greenbox.png);width: 296px;height: 194px; margin-bottom: 8px;}
 .greenbox h4 {font-size: 16px; padding-top: 40px;padding-left: 24px; }
 .greenbox p {font-size: 13px; padding-left: 24px;}
